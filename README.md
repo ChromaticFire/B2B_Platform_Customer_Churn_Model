@@ -2,7 +2,10 @@
 
 此项目中所有数据集皆为随机生成，不涉及商业机密
 
-Auther: 成常杰 博士
-Auther: 于智洋
 
+# Author
+成常杰 博士
+于智洋
 
+# Reference
+https://blog.csdn.net/qq_24591139/article/details/100518532
