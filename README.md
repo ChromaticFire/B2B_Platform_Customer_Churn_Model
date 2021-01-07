@@ -8,4 +8,10 @@
 于智洋
 
 # Reference
+SMOTE相关：
 https://blog.csdn.net/qq_24591139/article/details/100518532
+
+
+
+# GITHUB - 操作指南
+https://blog.csdn.net/kabulore/article/details/51841230?utm_medium=distribute.pc_relevant.none-task-blog-OPENSEARCH-4.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-OPENSEARCH-4.control
