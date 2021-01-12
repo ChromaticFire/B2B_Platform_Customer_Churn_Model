@@ -112,7 +112,7 @@ $$
 $$
 最后的结果并没有提升。
 
-![adaboost例子](/Users/lan/Books/《老友记》十季全：高频词汇、中英对照剧本、重点难点笔记解析及中英双语种子/ouyeel/客户流失模型/adaboost例子.png)
+![adaboost例子](/Users/lan/PycharmProjects/B2B_Platform_Customer_Churn_Model/lib/papers_read/A_Customer_Churn_Prediction_Model_in_Telecom_Industry_Using_Boosting/adaboost例子.png)
 
 ###  type II: AdaBoost(Adaptive Boosting)(权重归一化): 
 
@@ -346,7 +346,7 @@ $$
       $$
       f_t = \underset{f}{arg~\text{min}}(J_t = \sum\limits_{i=1}^{N}D_t(i)(y_i-f_{t}(x_i))^2)
       $$
-      
+   
 2. 取
       $$
       D_{t+1}(i) = \frac{D_{i}(i)\text{exp}(-y_if_t(x_i))}{Z_t}
@@ -441,7 +441,7 @@ $$
 $$
 它的图像
 
-![sigmoid函数图像](/Users/lan/Books/《老友记》十季全：高频词汇、中英对照剧本、重点难点笔记解析及中英双语种子/ouyeel/客户流失模型/sigmoid函数图像.png)
+![sigmoid函数图像](/Users/lan/PycharmProjects/B2B_Platform_Customer_Churn_Model/lib/papers_read/A_Customer_Churn_Prediction_Model_in_Telecom_Industry_Using_Boosting/sigmoid函数图像.png)
 
 
 
@@ -456,13 +456,13 @@ f(x) = F'(X<x) = \frac{e^{-(x-\mu)/\gamma}}{\gamma(1+ e^{-(x-\mu)/\gamma})^2}
 $$
 其中，$\mu$ 表示**位置参数**， $\gamma>0$ 为**形状参数**。我们可以看下其图像特征：
 
-![分布函数与密度函数图像](/Users/lan/Books/《老友记》十季全：高频词汇、中英对照剧本、重点难点笔记解析及中英双语种子/ouyeel/客户流失模型/分布函数与密度函数图像.jpg)
+![分布函数与密度函数图像](/Users/lan/PycharmProjects/B2B_Platform_Customer_Churn_Model/lib/papers_read/A_Customer_Churn_Prediction_Model_in_Telecom_Industry_Using_Boosting/分布函数与密度函数图像.jpg)
 
 Logistic 分布是由其位置和尺度参数定义的连续分布。 Logistic 分布的形状与正态分布的形状类似，但是Logistic 分布的尾部更长，所以我们可以使用Logistic 分布来建模比正态分布具有更长尾部和更高波峰的数据分布。 在深度学习中常用到的sigmoid函数就是Logistic 分布函数在　$\mu = 0,\mu= 1$ 的特殊形式。
 
 Logistic 回归中，以而分类为例，对于所给数据集假设存在这样的一条直线可以将数据完成线性可分。
 
-![线性可分](/Users/lan/Books/《老友记》十季全：高频词汇、中英对照剧本、重点难点笔记解析及中英双语种子/ouyeel/客户流失模型/线性可分.jpg)
+![线性可分](/Users/lan/PycharmProjects/B2B_Platform_Customer_Churn_Model/lib/papers_read/A_Customer_Churn_Prediction_Model_in_Telecom_Industry_Using_Boosting/线性可分.jpg)
 
 决策边界可以表示为 $w_1x_1 + w_2 x_2 + b = 0$,  假设某个样本点 $h_w(x) = w_1(x_1)+ w_2(x_2) + b>0$ 那么可以判断它的类别为 $1$, 这个过程其实是感知机。
 
@@ -558,6 +558,16 @@ $$
 
 
 ### 牛顿切线法未看
+
+## CHAID
+
+## Z-test
+
+Z-test也称为u-test.
+
+
+
+
 
 
 
