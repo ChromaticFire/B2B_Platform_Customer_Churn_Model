@@ -81,6 +81,52 @@ $$
 | 真实情形 $H_0$ 成立 | 正确判断                          | 第一类错误 $\alpha$ (False Positive)     |
 | 真实情形 $H_0$ 成立 | 第二类错误$\beta$(False Negative) | 正确判断<br /> 概率 =  $1-\beta$ (功效） |
 
+**定义1.1** 设总体分布包含若干未知参数 $\theta_1,\cdots,\theta_k$ . $H_0$ 是关于这些参数的一个原假设， 设有个样本$X_1,\cdots, X_n$, 而 $\Phi$ 是基于这些样本而对 $H_0$ 所作的一个检验, 则称检验 $\Phi$ 的功效函数为
+$$
+\beta_{\Phi}(\theta_1,\cdots,\theta_k) = P_{\theta_1,\cdots,\theta_k}(\text{在检验 $\Phi$ 之下，$H_0$ 被否定})
+$$
+它是未知参数 $\theta_1,\cdots,\theta_k$ 的函数. 
+
+**定义1.2**
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
