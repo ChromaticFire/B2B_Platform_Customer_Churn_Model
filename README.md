@@ -4,7 +4,7 @@
 
 
 # Author
-成常杰 博士
+成常杰
 于智洋
 
 # Reference
